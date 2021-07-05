@@ -1,4 +1,2 @@
 FROM centos
-COPY . /app
-RUN make /app
-CMD python /app/app.p
+RUN yum install git -y
