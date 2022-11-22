@@ -7,5 +7,5 @@
     file: 
       path: /opt/test.txt
       state: touch 
-      mode: 0777
+      mode: 7777
       owner: ansadmin
